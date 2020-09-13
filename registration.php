@@ -1,4 +1,6 @@
-<?php include 'mainpage.php'; ?>
+<?php 
+// adding connection file
+include 'mainpage.php'; ?>
 <html>
 
 <head>
