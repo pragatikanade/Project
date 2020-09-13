@@ -16,7 +16,6 @@
     <?php require_once 'adminprocess.php'; ?>
 
     <?php
-    //checking whether session is set or not for displaying messages.
     if (isset($_SESSION['message'])) : ?>
         <div class="alert alert-<?= $_SESSION['msg_type'] ?>">
             <?php
