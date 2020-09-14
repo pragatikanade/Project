@@ -7,7 +7,6 @@ $title = "";
 $name = "";
 $desc = "";
 
-//Code for Delete option.
 if (isset($_GET['delete'])) {
 	$id = $_GET['delete'];
 	$mysqli->query("DELETE FROM article WHERE id=$id ") or die(mysqli_error($mysqli));
