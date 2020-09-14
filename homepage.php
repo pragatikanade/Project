@@ -1,4 +1,5 @@
 <?php
+// footer
 include 'mainpage.php';?>
 <html>
 <head>
