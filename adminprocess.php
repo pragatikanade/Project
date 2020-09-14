@@ -6,8 +6,6 @@ $id = 0;
 $title = "";
 $name = "";
 $desc = "";
-// $update = false;
-// $save = false;
 
 //Code for Delete option.
 if (isset($_GET['delete'])) {
