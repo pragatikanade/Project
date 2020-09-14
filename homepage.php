@@ -6,7 +6,7 @@ include 'mainpage.php';?>
   <link rel="stylesheet" type="text/css" href="home.css">
 
 </head>
-
+<!-- Hello -->
 <body>
     <?php
 include 'connection.php';
