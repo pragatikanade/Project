@@ -1,11 +1,12 @@
 <?php include 'mainpage.php';
+session_start();
 include 'connection.php';
 $uemail = $_POST['remail'];
 $query = $mysqli->query("SELECT * FROM register_information WHERE uemail_db='$lemail'");
 
 if ($query) {
 	echo "wrong";
-}
+	}
 ?>
 
 <html>

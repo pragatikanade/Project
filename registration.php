@@ -1,19 +1,18 @@
 <?php 
-// adding connection file
 include 'mainpage.php'; ?>
 <html>
 
 <head>
   <link rel="stylesheet" type="text/css" href="register.css">
-<script>
- 
-</script>
 </head>
 
 <body>
 
+
   <div class="container">
     <form style="max-width:500px;margin:auto" action="registrationProcess.php" method="POST">
+
+
       <h2 style="text-align: center">Register Form</h2>
       <div class="imgcontainer">
         <img src="OIP.jpg" alt="Avatar" class="avatar">
