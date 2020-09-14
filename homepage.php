@@ -14,7 +14,6 @@ include 'connection.php';
     $name=$_SESSION['sname'];
 
     $result=$mysqli->query("SELECT * FROM article")or die(mysqli_error($mysqli));
-    // $result=$mysqli->query("SELECT * FROM article")or die(mysqli_error($mysqli));
     
 
     ?>
