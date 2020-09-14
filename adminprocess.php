@@ -1,6 +1,5 @@
 <?php
 session_start();
-// including the connection file
 include 'connection.php';
 
 $id = 0;
