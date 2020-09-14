@@ -31,7 +31,6 @@
         </div>
     <?php endif ?>
 
-    <!-- connecting to database and printing on same page with EDIT and DELETE option. -->
     <div class="container">
         <?php
         // including the connection file
